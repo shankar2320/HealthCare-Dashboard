@@ -1,4 +1,11 @@
 {
+"name": "healthcare-dashboard",
+  "version": "1.0.0",
+  "description": "Responsive static healthcare dashboard built with React and Tailwind CSS",
+  "author": "Shankar Suryawanshi",
+},
+
+{
   "name": "healthcare-dashboard",
   "private": true,
   "version": "0.0.0",
