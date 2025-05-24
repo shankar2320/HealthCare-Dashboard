@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 font-sans text-gray-900 antialiased;
+  margin: 0;
+  min-height: 100vh;
+}
+
+@layer components {
+  .sidebar-link {
+    @apply flex items-center gap-3 py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  
+  .sidebar-link-active {
+    @apply bg-primary-100 text-primary-700;
+  }
+
+  .sidebar-link-inactive {
+    @apply text-gray-600 hover:bg-gray-100;
+  }
+
+  .health-status-bar {
+    @apply h-2 rounded-full mt-2 bg-gray-200;
+  }
+
+  .status-indicator {
+    @apply h-full rounded-full;
+  }
+}
